@@ -5,7 +5,7 @@ def get_cat_fact():
     url = "https://catfact.ninja/fact"
     return requests.get(url).json()["fact"]
 
-st.title("🎈 My new app")
+st.title("Cat facts 3003")
 st.write(
     "Soline ne doit pas s'ennuyer !!! Non non non !!"
 )
